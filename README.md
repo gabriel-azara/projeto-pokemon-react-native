@@ -12,10 +12,14 @@ Um aplicativo móvel de Pokédex desenvolvido com **React Native** e **Expo**. E
 
 1. **Clone o repositório e instale as dependências:**
    # Navegue até a pasta do projeto
+   ``
    cd poke-project
+   ``
    
    # Instale as dependências do projeto
+   ``
    npm install
+   `` 
 
 2. **Inicie o servidor de desenvolvimento do Expo:**
    ``
