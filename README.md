@@ -11,18 +11,16 @@ Um aplicativo móvel de Pokédex desenvolvido com **React Native** e **Expo**. E
 ### Passo a passo
 
 1. **Clone o repositório e instale as dependências:**
-   \`\`\`bash
    # Navegue até a pasta do projeto
    cd poke-project
    
    # Instale as dependências do projeto
    npm install
-   \`\`\`
 
 2. **Inicie o servidor de desenvolvimento do Expo:**
-   \`\`\`bash
+   \`\`
    npx expo start
-   \`\`\`
+   \`\`
 
 3. **Rodando no celular ou emulador:**
    - **No celular físico:** Abra o app de Câmera (no iOS) ou o próprio app do Expo Go (no Android) e leia o QR Code que aparecerá no terminal.
