@@ -1,10 +1,10 @@
-import Pokelist from "@/components/pokedex";
+import FavoritesList from "@/components/favorites";
 import { StyleSheet, View } from "react-native";
 
-export default function PokedexScreen() {
+export default function FavoritesScreen() {
   return (
     <View style={styles.container}>
-      <Pokelist />
+      <FavoritesList />
     </View>
   );
 }
@@ -14,14 +14,5 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: "bold",
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: "80%",
   },
 });
